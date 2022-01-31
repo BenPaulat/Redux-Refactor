@@ -21,7 +21,7 @@
   ![alt text](./ReadmeImage/Shop-Shop.PNG)
 
   ## Deployed Heroku App
-  
+  https://cryptic-sea-39766.herokuapp.com/
 
   ## Contributions
   [BenPaulat](https://github.com/BenPaulat)
