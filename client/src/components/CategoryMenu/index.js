@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
-import { useStoreContext } from '../../utils/GlobalState';
+// new file location
+import { useStoreContext } from '../../utils/store';
 import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,

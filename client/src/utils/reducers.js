@@ -19,7 +19,7 @@ const ReduxState = {
   currentCategory: '',
 };
 
-export const reducer = (state, action) => {
+export const reducer = (state = ReduxState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
