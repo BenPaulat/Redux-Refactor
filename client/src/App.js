@@ -16,7 +16,7 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
-import { Provider } from 'redux';
+import { Provider } from 'react-redux';
 import store from './utils/store';
 
 const httpLink = createHttpLink({
