@@ -1,15 +1,16 @@
 import React, { useEffect } from 'react';
 import ProductItem from '../ProductItem';
-// new file location
-import { useStoreContext } from '../../utils/store';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 import spinner from '../../assets/spinner.gif';
+import { useDispatch, useSelector } from 'react-redux';
 
 function ProductList() {
-  const [state, dispatch] = useStoreContext();
+  const dispatch = useDispatch();
+  const selectState = state => state;
+  const state = useSelector(selectState);
 
   const { currentCategory } = state;
 
