@@ -92,7 +92,3 @@ export const reducer = (state = ReduxState, action) => {
       return state;
   }
 };
-
-export function useProductReducer(initialState) {
-  return useReducer(reducer, initialState)
-}
